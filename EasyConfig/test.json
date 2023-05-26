@@ -1,0 +1,17 @@
+{
+  "Face":"Def",
+  "App": {
+    "Globals": {
+      "DB": {
+        "Type" : "SQL Server",
+        "HostName": "Default",
+        "PortNo": 1433
+      }
+    },
+    "Frames": {
+      "RootFrame": {
+        "Placement": 100
+      }
+    }
+  }
+}

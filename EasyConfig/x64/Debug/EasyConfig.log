@@ -1,0 +1,43 @@
+﻿  EasyConfig.cpp
+C:\Users\chebotkov\source\repos\CPP\EasyConfig\EasyConfig\JsonIO.h(38,1): warning C4267: 'argument': conversion from 'size_t' to 'rapidjson::SizeType', possible loss of data
+C:\Users\chebotkov\source\repos\CPP\EasyConfig\EasyConfig\JsonConfig.h(108,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xstring(2859,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xstring(2718,1): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xstring(2718,37): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+C:\Users\chebotkov\source\repos\CPP\EasyConfig\EasyConfig\RegistryIO.h(12): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\chebotkov\source\repos\CPP\EasyConfig\EasyConfig\RegistryIO.h(12,5): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\chebotkov\source\repos\CPP\EasyConfig\EasyConfig\JsonConfig.h(81): warning C4715: 'JsonConfig::Access': not all control paths return a value
+C:\Users\chebotkov\source\repos\CPP\EasyConfig\EasyConfig\IniConfig.h(67): warning C4715: 'IniConfig::Access': not all control paths return a value
+C:\Users\chebotkov\source\repos\CPP\EasyConfig\EasyConfig\XmlConfig.h(90): warning C4715: 'XmlConfig::Access': not all control paths return a value
+C:\Users\chebotkov\source\repos\CPP\EasyConfig\EasyConfig\RegistryConfig.h(41): warning C4715: 'RegistryConfig::Access': not all control paths return a value
+  EasyConfig.vcxproj -> C:\Users\chebotkov\source\repos\CPP\EasyConfig\x64\Debug\EasyConfig.exe

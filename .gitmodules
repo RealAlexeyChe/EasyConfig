@@ -1,0 +1,12 @@
+[submodule "Registry"]
+	path = Registry
+	url = https://github.com/m4x1m1l14n/Registry
+[submodule "rapidjson"]
+	path = rapidjson
+	url = https://github.com/Tencent/rapidjson/
+[submodule "simpleini"]
+	path = simpleini
+	url = https://github.com/brofield/simpleini
+[submodule "RapidXML"]
+	path = RapidXML
+	url = https://github.com/Fe-Bell/RapidXML
